@@ -1,0 +1,2 @@
+# Device-managemen-application---Spring-ReactJS-Docker
+Fully dockerized full-stack application that allows users to manage their devices, view charts of their devices' energy consumption over different dates, and chat with admin and other users for help. The application is fully securized using Spring Security, and uses REST &amp; websockets for communication between frontend &amp; backend server.
