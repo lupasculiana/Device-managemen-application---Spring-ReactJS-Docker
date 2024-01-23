@@ -1,0 +1,10 @@
+services:
+  chat-microservice:
+    image: chat-microservice
+    ports:
+      - 8080:8080
+    build: ./chat
+    networks: [ "my-network" ]
+
+networks:
+      my-network:
