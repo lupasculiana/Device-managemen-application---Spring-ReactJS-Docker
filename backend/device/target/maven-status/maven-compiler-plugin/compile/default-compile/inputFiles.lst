@@ -1,0 +1,17 @@
+C:\Users\liais\workspace\sd-back\ds_2023_lupascu_liana_1_backend\device\src\main\java\com\utcn\app\dto\ResponseDTO.java
+C:\Users\liais\workspace\sd-back\ds_2023_lupascu_liana_1_backend\device\src\main\java\com\utcn\app\model\RoleEnum.java
+C:\Users\liais\workspace\sd-back\ds_2023_lupascu_liana_1_backend\device\src\main\java\com\utcn\app\service\DeviceService.java
+C:\Users\liais\workspace\sd-back\ds_2023_lupascu_liana_1_backend\device\src\main\java\com\utcn\app\repository\DeviceRepository.java
+C:\Users\liais\workspace\sd-back\ds_2023_lupascu_liana_1_backend\device\src\main\java\com\utcn\app\mapping\DeviceMapper.java
+C:\Users\liais\workspace\sd-back\ds_2023_lupascu_liana_1_backend\device\src\main\java\com\utcn\app\dto\DeviceDTO.java
+C:\Users\liais\workspace\sd-back\ds_2023_lupascu_liana_1_backend\device\src\main\java\com\utcn\app\config\DeviceSecurityConfig.java
+C:\Users\liais\workspace\sd-back\ds_2023_lupascu_liana_1_backend\device\src\main\java\com\utcn\app\config\JwtTokenFilter.java
+C:\Users\liais\workspace\sd-back\ds_2023_lupascu_liana_1_backend\device\src\main\java\com\utcn\app\dto\CustomerDTO.java
+C:\Users\liais\workspace\sd-back\ds_2023_lupascu_liana_1_backend\device\src\main\java\com\utcn\app\config\UrlConfig.java
+C:\Users\liais\workspace\sd-back\ds_2023_lupascu_liana_1_backend\device\src\main\java\com\utcn\app\repository\CustomerDeviceRepository.java
+C:\Users\liais\workspace\sd-back\ds_2023_lupascu_liana_1_backend\device\src\main\java\com\utcn\app\controller\DeviceController.java
+C:\Users\liais\workspace\sd-back\ds_2023_lupascu_liana_1_backend\device\src\main\java\com\utcn\app\model\CustomerDevice.java
+C:\Users\liais\workspace\sd-back\ds_2023_lupascu_liana_1_backend\device\src\main\java\com\utcn\app\service\DeviceServiceImpl.java
+C:\Users\liais\workspace\sd-back\ds_2023_lupascu_liana_1_backend\device\src\main\java\com\utcn\app\App.java
+C:\Users\liais\workspace\sd-back\ds_2023_lupascu_liana_1_backend\device\src\main\java\com\utcn\app\dto\CustomerDeviceDTO.java
+C:\Users\liais\workspace\sd-back\ds_2023_lupascu_liana_1_backend\device\src\main\java\com\utcn\app\model\Device.java

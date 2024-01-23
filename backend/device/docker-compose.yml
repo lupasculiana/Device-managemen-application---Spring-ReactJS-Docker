@@ -1,0 +1,32 @@
+version: '3'
+services:
+  device-db:
+    container_name: device-db
+    image: postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+      PGDATA: /data/postgres
+    ports:
+      - "5433:5432"
+    networks:
+      - my-network
+
+  device-microservice:
+    image: device-microservice
+    ports:
+      - 8082:8082
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://device-db:5432/device
+      SPRING_DATASOURCE_USERNAME: postgres
+      SPRING_DATASOURCE_PASSWORD: password
+    depends_on:
+      - device-db
+    build: ./devices
+    networks:
+      - my-network
+
+networks:
+  my-network:
+    external:
+      name: my-shared-network

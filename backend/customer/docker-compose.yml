@@ -1,0 +1,33 @@
+services:
+  customer-db:
+    container_name: customer-db
+    image: postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+      PGDATA: /data/postgres
+    ports:
+      - "5434:5432"
+    restart: unless-stopped
+    networks:
+      - my-network
+
+  customer-microservice:
+    image: customer-microservice
+    container_name: customer-microservice-container
+    ports:
+      - 8081:8081
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://customer-db:5432/customer
+      SPRING_DATASOURCE_USERNAME: postgres
+      SPRING_DATASOURCE_PASSWORD: password
+    depends_on:
+      - customer-db
+    build: ./customers
+    networks:
+      - my-network
+
+networks:
+  my-network:
+    external:
+      name: my-shared-network
