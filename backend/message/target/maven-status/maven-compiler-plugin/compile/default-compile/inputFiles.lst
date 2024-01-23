@@ -1,0 +1,13 @@
+C:\Users\liais\workspace\sd-back\ds2023_30242_lupascu_liana_2_backend\message\src\main\java\com\example\messagem\dtos\DeviceDTO.java
+C:\Users\liais\workspace\sd-back\ds2023_30242_lupascu_liana_2_backend\message\src\main\java\com\example\messagem\config\MessageSecurityConfig.java
+C:\Users\liais\workspace\sd-back\ds2023_30242_lupascu_liana_2_backend\message\src\main\java\com\example\messagem\service\DeviceService.java
+C:\Users\liais\workspace\sd-back\ds2023_30242_lupascu_liana_2_backend\message\src\main\java\com\example\messagem\rabbitmq\MessageReceiver.java
+C:\Users\liais\workspace\sd-back\ds2023_30242_lupascu_liana_2_backend\message\src\main\java\com\example\messagem\MessagemApplication.java
+C:\Users\liais\workspace\sd-back\ds2023_30242_lupascu_liana_2_backend\message\src\main\java\com\example\messagem\model\Message.java
+C:\Users\liais\workspace\sd-back\ds2023_30242_lupascu_liana_2_backend\message\src\main\java\com\example\messagem\dtos\MessageDTO.java
+C:\Users\liais\workspace\sd-back\ds2023_30242_lupascu_liana_2_backend\message\src\main\java\com\example\messagem\model\Device.java
+C:\Users\liais\workspace\sd-back\ds2023_30242_lupascu_liana_2_backend\message\src\main\java\com\example\messagem\service\MessageService.java
+C:\Users\liais\workspace\sd-back\ds2023_30242_lupascu_liana_2_backend\message\src\main\java\com\example\messagem\repository\MessageRepository.java
+C:\Users\liais\workspace\sd-back\ds2023_30242_lupascu_liana_2_backend\message\src\main\java\com\example\messagem\repository\DeviceRepository.java
+C:\Users\liais\workspace\sd-back\ds2023_30242_lupascu_liana_2_backend\message\src\main\java\com\example\messagem\controller\MessageController.java
+C:\Users\liais\workspace\sd-back\ds2023_30242_lupascu_liana_2_backend\message\src\main\java\com\example\messagem\config\JwtTokenFilter.java

@@ -1,0 +1,47 @@
+version: '3'
+services:
+  message-db:
+    container_name: message-db
+    image: postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+      PGDATA: /data/postgres
+    ports:
+      - "5435:5432"
+    networks:
+      - my-network
+
+  message-microservice:
+    image: message-microservice3
+    ports:
+      - 8085:8085
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://message-db:5432/message
+      SPRING_DATASOURCE_USERNAME: postgres
+      SPRING_DATASOURCE_PASSWORD: password
+      SPRING_RABBITMQ_HOST: rabbitmq
+      SPRING_RABBITMQ_USERNAME: guest
+      SPRING_RABBITMQ_PASSWORD: guest
+    depends_on:
+      - rabbitmq
+      - message-db
+    build:
+        context: .
+        dockerfile: Dockerfile
+    networks:
+      - my-network
+
+  rabbitmq:
+    container_name: rabbitmq
+    image: rabbitmq:3.11.25-management-alpine
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    networks:
+      - my-network
+
+networks:
+  my-network:
+    external:
+      name: my-shared-network

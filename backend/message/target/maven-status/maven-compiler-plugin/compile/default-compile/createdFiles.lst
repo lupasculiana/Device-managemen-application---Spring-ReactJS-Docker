@@ -1,0 +1,17 @@
+com\example\messagem\dtos\DeviceDTO.class
+com\example\messagem\model\Device.class
+com\example\messagem\service\DeviceService.class
+com\example\messagem\repository\MessageRepository.class
+com\example\messagem\dtos\MessageDTO$MessageDTOBuilder.class
+com\example\messagem\MessagemApplication.class
+com\example\messagem\model\Message$MessageBuilder.class
+com\example\messagem\dtos\DeviceDTO$DeviceDTOBuilder.class
+com\example\messagem\rabbitmq\MessageReceiver.class
+com\example\messagem\repository\DeviceRepository.class
+com\example\messagem\controller\MessageController.class
+com\example\messagem\service\MessageService.class
+com\example\messagem\model\Device$DeviceBuilder.class
+com\example\messagem\model\Message.class
+com\example\messagem\config\JwtTokenFilter.class
+com\example\messagem\dtos\MessageDTO.class
+com\example\messagem\config\MessageSecurityConfig.class
